@@ -1,0 +1,24 @@
+export const LOAD_RECIPE = 'LoadRecipe';
+export const LOAD_RECIPE_SUCCESS = 'LoadRecipeSuccess'
+export const LOAD_RECIPE_FAILED = 'LoadRecipeFailed'
+export const LOAD_POPULAR_RECIPE = 'LoadPopularRecipe';
+export const LOAD_POPULAR_RECIPE_SUCCESS = 'LoadPopularRecipeSuccess'
+export const LOAD_POPULAR_RECIPE_FAILED = 'LoadPopularRecipeFailed'
+export const LOAD_FAVORITE_RECIPE = 'LoadFavoriteRecipe';
+export const LOAD_FAVORITE_RECIPE_SUCCESS = 'LoadFavoriteRecipeSuccess'
+export const LOAD_FAVORITE_RECIPE_FAILED = 'LoadFavoriteRecipeFailed'
+export const LOAD_MY_RECIPE = 'LoadMyRecipe';
+export const LOAD_MY_RECIPE_SUCCESS = 'LoadMyRecipeSuccess'
+export const LOAD_MY_RECIPE_FAILED = 'LoadMyRecipeFailed'
+export const LOAD_CART = 'LoadCart'
+export const LOAD_CART_SUCCESS = 'LoadCartSuccess'
+export const LOAD_CART_FAILED = 'LoadCartFailed'
+export const LOAD_CART_INFO = 'LoadCartInfo'
+export const LOAD_CART_INFO_SUCCESS = 'LoadCartInfoSuccess'
+export const LOAD_CART_INFO_FAILED = 'LoadCartInfoFailed'
+export const LOAD_RESULT = 'LoadResult'
+export const LOAD_RESULT_SUCCESS = 'LoadResultSuccess'
+export const LOAD_RESULT_FAILED = 'LoadResultFailed'
+export const SHOW_LOADER = 'ShowLoader'
+export const HIDE_LOADER = 'HideLoader'
+

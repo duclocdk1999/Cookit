@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		40E5B237B71D4DD3B9F66AB6 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA6F26B262FD457F9E2AAEAD /* Ionicons.ttf */; };
+		4219CBF18DE25DC340F9BDDD /* libPods-Cookit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F96B4EA0F36A6EEFCCDA9E8 /* libPods-Cookit.a */; };
+		517DCBF9763A42A099B4AD6F /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0C36943DFE14C978DB3036B /* Feather.ttf */; };
+		5B11796547B843138A08178C /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC3CC49661CA4BEEBC2ACBDF /* Roboto.ttf */; };
+		69FFF330AF644484A3AAB88D /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9CBF36CFA0A4DB0B1904928 /* MaterialCommunityIcons.ttf */; };
+		79726F843C114496ABB6FF97 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A255538F4824623A0EC9A20 /* Octicons.ttf */; };
+		825854CCA93142A98E6D6377 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A7FA73C1BBF45EB9E6AC622 /* Foundation.ttf */; };
+		8602FF08C4E04BFA827F4641 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D01827C15F542CA86DE7526 /* FontAwesome5_Regular.ttf */; };
+		8AD6133F0111481F8FFB3FC9 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1705F7F42A544CAE97E9526E /* Entypo.ttf */; };
+		8D1CB516F6974B8EB589FADF /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B843835CE5F4524B41CBCD0 /* FontAwesome5_Brands.ttf */; };
+		8E594E5DAFD14A03B5E440B7 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F30C1F07D0E4D799EA09C41 /* FontAwesome.ttf */; };
+		99A5822733C04819AA9B589D /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C38BBA454494FD9B67F6159 /* Roboto_medium.ttf */; };
+		A778872B41B04C6D8D1A4EB3 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC47DFC5563E46EE89ABAC09 /* FontAwesome5_Solid.ttf */; };
+		ACD1065C54DF44FC9F001131 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B92D12E454CD47E595F02B7D /* Zocial.ttf */; };
+		ADAAE951E8B84F25898B719B /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 579433CE86224DCF8537A013 /* MaterialIcons.ttf */; };
+		B01F1D9CB3CF40CEA0283DFE /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DCFD9FCEA29427BB8377D3E /* rubicon-icon-font.ttf */; };
+		B77356306C994BA0B4BBC446 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D9C5AA3E85C4566B0EF7872 /* EvilIcons.ttf */; };
+		C97D646881BE4EC38D3D2B51 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15E7AE9AD94B42DD90429538 /* Fontisto.ttf */; };
+		CACC6AC2166C4A2B936FBF89 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6876C20BDA3744F0902AFD69 /* SimpleLineIcons.ttf */; };
+		DFE37BBC58F64848A5F43F10 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15B3AB8C17D94DBCB3297795 /* AntDesign.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* CookitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CookitTests.m; sourceTree = "<group>"; };
+		047B6CD44281F0E1832A197E /* libPods-Cookit-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cookit-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B843835CE5F4524B41CBCD0 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		0D01827C15F542CA86DE7526 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Cookit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cookit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Cookit/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Cookit/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Cookit/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Cookit/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Cookit/main.m; sourceTree = "<group>"; };
+		15B3AB8C17D94DBCB3297795 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		15E7AE9AD94B42DD90429538 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		1705F7F42A544CAE97E9526E /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		1D9C5AA3E85C4566B0EF7872 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		1F30C1F07D0E4D799EA09C41 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		21734755C63BE23E01847368 /* Pods-Cookit-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cookit-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Cookit-tvOSTests/Pods-Cookit-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		2527455F66FEA0C40C2156E3 /* Pods-CookitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookitTests.release.xcconfig"; path = "Target Support Files/Pods-CookitTests/Pods-CookitTests.release.xcconfig"; sourceTree = "<group>"; };
+		264A7C44FBAF1B914BD031FC /* Pods-Cookit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cookit.debug.xcconfig"; path = "Target Support Files/Pods-Cookit/Pods-Cookit.debug.xcconfig"; sourceTree = "<group>"; };
+		26849EFC18623E5E0650A74D /* Pods-Cookit-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cookit-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Cookit-tvOSTests/Pods-Cookit-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D696C8386DDB48E27440623 /* Pods-Cookit-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cookit-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Cookit-tvOS/Pods-Cookit-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		3F96B4EA0F36A6EEFCCDA9E8 /* libPods-Cookit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cookit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		429ADCF0A07199F0A3E899BC /* libPods-Cookit-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cookit-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		579433CE86224DCF8537A013 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		6876C20BDA3744F0902AFD69 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		759817D3907EE0639D1CB28D /* libPods-CookitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CookitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A255538F4824623A0EC9A20 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		8A7FA73C1BBF45EB9E6AC622 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		8DCFD9FCEA29427BB8377D3E /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		9174A65F267A08B51805856B /* Pods-Cookit-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cookit-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Cookit-tvOS/Pods-Cookit-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9C38BBA454494FD9B67F6159 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		A992E586EA3A961A5F256F5F /* Pods-CookitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookitTests.debug.xcconfig"; path = "Target Support Files/Pods-CookitTests/Pods-CookitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9CBF36CFA0A4DB0B1904928 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		B636F789A75B5C5A7C907436 /* Pods-Cookit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cookit.release.xcconfig"; path = "Target Support Files/Pods-Cookit/Pods-Cookit.release.xcconfig"; sourceTree = "<group>"; };
+		B92D12E454CD47E595F02B7D /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		D0C36943DFE14C978DB3036B /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		DC3CC49661CA4BEEBC2ACBDF /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		DC47DFC5563E46EE89ABAC09 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		EA6F26B262FD457F9E2AAEAD /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4219CBF18DE25DC340F9BDDD /* libPods-Cookit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* CookitTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* CookitTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = CookitTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0ED80F715C324268B1A58BFA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				15B3AB8C17D94DBCB3297795 /* AntDesign.ttf */,
+				1705F7F42A544CAE97E9526E /* Entypo.ttf */,
+				1D9C5AA3E85C4566B0EF7872 /* EvilIcons.ttf */,
+				D0C36943DFE14C978DB3036B /* Feather.ttf */,
+				1F30C1F07D0E4D799EA09C41 /* FontAwesome.ttf */,
+				0B843835CE5F4524B41CBCD0 /* FontAwesome5_Brands.ttf */,
+				0D01827C15F542CA86DE7526 /* FontAwesome5_Regular.ttf */,
+				DC47DFC5563E46EE89ABAC09 /* FontAwesome5_Solid.ttf */,
+				15E7AE9AD94B42DD90429538 /* Fontisto.ttf */,
+				8A7FA73C1BBF45EB9E6AC622 /* Foundation.ttf */,
+				EA6F26B262FD457F9E2AAEAD /* Ionicons.ttf */,
+				A9CBF36CFA0A4DB0B1904928 /* MaterialCommunityIcons.ttf */,
+				579433CE86224DCF8537A013 /* MaterialIcons.ttf */,
+				8A255538F4824623A0EC9A20 /* Octicons.ttf */,
+				9C38BBA454494FD9B67F6159 /* Roboto_medium.ttf */,
+				DC3CC49661CA4BEEBC2ACBDF /* Roboto.ttf */,
+				8DCFD9FCEA29427BB8377D3E /* rubicon-icon-font.ttf */,
+				6876C20BDA3744F0902AFD69 /* SimpleLineIcons.ttf */,
+				B92D12E454CD47E595F02B7D /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Cookit */ = {
+			isa = PBXGroup;
+			children = (
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Cookit;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				3F96B4EA0F36A6EEFCCDA9E8 /* libPods-Cookit.a */,
+				047B6CD44281F0E1832A197E /* libPods-Cookit-tvOS.a */,
+				429ADCF0A07199F0A3E899BC /* libPods-Cookit-tvOSTests.a */,
+				759817D3907EE0639D1CB28D /* libPods-CookitTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CBBCAB99476E06CF1AF26F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				264A7C44FBAF1B914BD031FC /* Pods-Cookit.debug.xcconfig */,
+				B636F789A75B5C5A7C907436 /* Pods-Cookit.release.xcconfig */,
+				9174A65F267A08B51805856B /* Pods-Cookit-tvOS.debug.xcconfig */,
+				3D696C8386DDB48E27440623 /* Pods-Cookit-tvOS.release.xcconfig */,
+				26849EFC18623E5E0650A74D /* Pods-Cookit-tvOSTests.debug.xcconfig */,
+				21734755C63BE23E01847368 /* Pods-Cookit-tvOSTests.release.xcconfig */,
+				A992E586EA3A961A5F256F5F /* Pods-CookitTests.debug.xcconfig */,
+				2527455F66FEA0C40C2156E3 /* Pods-CookitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Cookit */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* CookitTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				3CBBCAB99476E06CF1AF26F4 /* Pods */,
+				0ED80F715C324268B1A58BFA /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Cookit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* Cookit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Cookit" */;
+			buildPhases = (
+				51E8EA3E74A1E8C4CC9F5F2A /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cookit;
+			productName = Cookit;
+			productReference = 13B07F961A680F5B00A75B9A /* Cookit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 835C6MMATD;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Cookit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Cookit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				DFE37BBC58F64848A5F43F10 /* AntDesign.ttf in Resources */,
+				8AD6133F0111481F8FFB3FC9 /* Entypo.ttf in Resources */,
+				B77356306C994BA0B4BBC446 /* EvilIcons.ttf in Resources */,
+				517DCBF9763A42A099B4AD6F /* Feather.ttf in Resources */,
+				8E594E5DAFD14A03B5E440B7 /* FontAwesome.ttf in Resources */,
+				8D1CB516F6974B8EB589FADF /* FontAwesome5_Brands.ttf in Resources */,
+				8602FF08C4E04BFA827F4641 /* FontAwesome5_Regular.ttf in Resources */,
+				A778872B41B04C6D8D1A4EB3 /* FontAwesome5_Solid.ttf in Resources */,
+				C97D646881BE4EC38D3D2B51 /* Fontisto.ttf in Resources */,
+				825854CCA93142A98E6D6377 /* Foundation.ttf in Resources */,
+				40E5B237B71D4DD3B9F66AB6 /* Ionicons.ttf in Resources */,
+				69FFF330AF644484A3AAB88D /* MaterialCommunityIcons.ttf in Resources */,
+				ADAAE951E8B84F25898B719B /* MaterialIcons.ttf in Resources */,
+				79726F843C114496ABB6FF97 /* Octicons.ttf in Resources */,
+				99A5822733C04819AA9B589D /* Roboto_medium.ttf in Resources */,
+				5B11796547B843138A08178C /* Roboto.ttf in Resources */,
+				B01F1D9CB3CF40CEA0283DFE /* rubicon-icon-font.ttf in Resources */,
+				CACC6AC2166C4A2B936FBF89 /* SimpleLineIcons.ttf in Resources */,
+				ACD1065C54DF44FC9F001131 /* Zocial.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		51E8EA3E74A1E8C4CC9F5F2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cookit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = Cookit;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 264A7C44FBAF1B914BD031FC /* Pods-Cookit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 835C6MMATD;
+				INFOPLIST_FILE = Cookit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Cookit;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B636F789A75B5C5A7C907436 /* Pods-Cookit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 835C6MMATD;
+				INFOPLIST_FILE = Cookit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Cookit;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Cookit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Cookit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
